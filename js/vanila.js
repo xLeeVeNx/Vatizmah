@@ -23,6 +23,16 @@ const deleteClass = () => {
 headerBurger.addEventListener('click', classActive);
 headerClose.addEventListener('click', deleteClass);
 
+const float = document.querySelector('.float');
+setInterval(() => {
+  float.classList.add('float--active');
+
+  setTimeout(() => {
+    float.classList.remove('float--active');
+  }, 3000);
+}, 13000);
+
+
 //Timer
 const deadlineDate = '2021-04-23T06:02';
 
