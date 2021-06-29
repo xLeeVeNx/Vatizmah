@@ -34,7 +34,7 @@ setInterval(() => {
 
 
 //Timer
-const deadlineDate = '2021-04-30T06:02';
+const deadlineDate = '2021-07-30T06:02';
 
 const getTimeRemaining = (date) => {
   const t = Date.parse(date) - new Date(),
